@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: real-time-assistant-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node --use-system-ca server/index.js
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false

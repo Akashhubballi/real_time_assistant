@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment variables (API KEYS - never push this!)
+.env
+.env.local
+.env.production
+
+# Build output
+dist/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+test-gemini.js
+test-fetch.js
+
+# Editor
+.vscode/
